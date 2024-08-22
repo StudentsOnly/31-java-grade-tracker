@@ -114,6 +114,7 @@ public class StudentManager{
                     displayAverageGrades();
                     break;
                 case 7:
+                    scan.close();
                     System.exit(0);
                 default:
                     System.err.println("\n Invalid input");
